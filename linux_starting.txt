@@ -1,0 +1,27 @@
+Name - Jainam Shah
+ref ID- DIRSS2131
+
+Q1 : create a folder named as documents
+    - in the document folder create two folder with the name as test & learning
+    - Now from the current location create any file into the test folder
+    - copy the same file created in test folder to the learning folder
+        - but make sure copy the file from the current folder
+    - remove the complete folder named as test
+
+ANS-	mkdir documnets
+	mkdir test learning
+	touch test/file1
+	cp test/file1 learning/
+	rm -r test
+
+2: create the two folder named as datascience & bigdata
+    - bigdata folder is the subdirectory of the datascience
+    - Cond: [use only 1 single mkdir command for the above question
+        without using the cd ]
+
+ANS- mkdir datascience/bigdata
+
+Q3: create a set of folder with the name as regex1, regex2, regex3 ...... till regex100
+    - using 1 single mkdir command
+
+ANS-mkdir regex{1..100}
